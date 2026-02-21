@@ -1,0 +1,1 @@
+en la carpeta de data hay que crear las carpetas de /raw, /parquet y logs

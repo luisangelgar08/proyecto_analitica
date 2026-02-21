@@ -1,0 +1,69 @@
+# =========================
+# Python / VS Code / OS
+# =========================
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.ipynb_checkpoints/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# =========================
+# Data (NO subir datasets)
+# =========================
+data/raw/
+data/parquet/
+data/parquet_silver_v2/
+data/parquet_silver/
+data/logs/
+
+# Si quieres conservar solo algunos logs pequeños, ignora todo y "des-ignora" lo necesario:
+# data/logs/*
+# !data/logs/fase1/
+# !data/logs/fase1/*.csv
+# !data/logs/fase1/*.json
+
+# =========================
+# Comprimidos y grandes
+# =========================
+*.zip
+*.7z
+*.rar
+*.tar
+*.gz
+*.bz2
+*.xz
+
+# =========================
+# Archivos de salida / reportes
+# =========================
+*.parquet
+*.arrow
+*.feather
+*.csv
+*.tsv
+*.log
+*.tmp
+
+# Si quieres sí subir algunos CSV de resultados (pequeños), usa reglas inversas:
+# !data/logs/fase1/01_partition_summary.csv
+# !data/logs/fase1/02_global_summary.csv
+# !data/logs/fase1/03_duplicates_approx.csv
+# !data/logs/fase1/04_missingness_sample_1M.csv
+# !data/logs/fase1/05_manifest.json
+# !data/logs/fase1/06_dask_metadata_partition_summary.csv
+# !data/logs/fase1/07_dask_2025Q1_c003_counts.csv
+
+# =========================
+# Cachés comunes
+# =========================
+.cache/
+*.sqlite
+*.db
