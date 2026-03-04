@@ -47,7 +47,6 @@ data/logs/
 *.parquet
 *.arrow
 *.feather
-*.csv
 *.tsv
 *.log
 *.tmp
@@ -67,3 +66,5 @@ data/logs/
 .cache/
 *.sqlite
 *.db
+*.json
+*.txt

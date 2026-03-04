@@ -100,6 +100,9 @@ def main():
         print("OK ->", out_b)
     else:
         print("WARN: No encuentro", SMALL_FILE)
+    input("Dashboard activo. Abre el link y presiona Enter para cerrar...")
 
+    client.close()
+    cluster.close()
 if __name__ == "__main__":
     main()

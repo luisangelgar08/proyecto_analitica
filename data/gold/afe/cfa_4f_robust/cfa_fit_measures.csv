@@ -1,0 +1,6 @@
+chi2,dof,p_value,CFI,RMSEA,SRMR
+"Value    70353.098245
+Name: chi2, dtype: float64","Value    56
+Name: DoF, dtype: int64",,"Value    0.907785
+Name: CFI, dtype: float64","Value    0.20456
+Name: RMSEA, dtype: float64",

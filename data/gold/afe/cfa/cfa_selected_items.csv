@@ -1,0 +1,6 @@
+factor,items,n_items
+F1,"mean_num_c012, mean_num_c016, mean_num_c017",3
+F2,"mean_num_year, mean_num_c008, mean_num_c007",3
+F3,"mean_num_c009, mean_num_c011",2
+F4,"mean_num_c018, mean_num_c014, mean_num_c013",3
+F5,"mean_num_c019, mean_num_c020",2
